@@ -1,0 +1,7 @@
+{
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_WORKOS_CLIENT_ID": "client_01HAA4PTCS6PHQM5H3S4QE575C"
+    }
+  }
+}
