@@ -6,7 +6,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   const authorizationURL = await workos.sso.getAuthorizationURL({
     clientID,
-    domain: 'placeholder.com',
+    domain: 'workos-9qgdfegea-tomparandyk-neontech.vercel.app',
     redirectURI: 'http://localhost:3000/auth/callback',
   });
 
