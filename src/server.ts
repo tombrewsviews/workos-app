@@ -4,12 +4,12 @@ import workos from './workos';
 const app = express();
 
 app.get('/auth/login', async (req, res) => {
-  const authorizationUrl = await workos.sso.getAuthorizationUrl({
+  const authorizationURL = await workos.sso.getAuthorizationURL({
     domain: 'placeholder.com',
     redirectURI: 'http://localhost:3000/auth/callback',
   });
 
-  res.redirect(authorizationUrl);
+  res.redirect(authorizationURL);
 });
 
 app.listen(3000, () => {
