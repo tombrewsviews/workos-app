@@ -6,18 +6,18 @@ import Callback from '../components/Callback';
 const App = () => {
   const router = useRouter();
   const { pathname } = router;
-
+  
   if (pathname === '/auth/callback') {
     return <Callback />;
   }
-
+  
   if (pathname === '/login' || pathname === '/') {
     return <Login />;
   }
-
+  
   return (
     <div>
-      Default Page
+      Content page
     </div>
   );
 };
