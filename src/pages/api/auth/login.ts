@@ -5,7 +5,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   const clientId = req.query.client_id as string;
 
   const authorizationUrl = await workos.sso.getAuthorizationURL({
-    clientId,
+    clientID,
     domain: 'placeholder.com',
     redirectURI: 'http://localhost:3000/auth/callback',
   });
