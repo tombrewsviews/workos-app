@@ -11,7 +11,7 @@ const App = () => {
     return <Callback />;
   }
 
-  if (pathname === '/login') {
+  if (pathname === '/login' || pathname === '/') {
     return <Login />;
   }
 

@@ -1,11 +1,11 @@
-const express = require('express');
-const workos = require('./workos');
+import express from 'express';
+import workos from './workos';
 
 const app = express();
 
 app.get('/auth/login', async (req, res) => {
   const authorizationUrl = await workos.sso.getAuthorizationUrl({
-    domain: 'your_domain.com',
+    domain: 'placeholder.com',
     redirectURI: 'http://localhost:3000/auth/callback',
   });
 
@@ -13,5 +13,6 @@ app.get('/auth/login', async (req, res) => {
 });
 
 app.listen(3000, () => {
+  // eslint-disable-next-line no-undef
   console.log('Server running on http://localhost:3000');
 });
