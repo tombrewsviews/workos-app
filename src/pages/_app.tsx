@@ -205,11 +205,11 @@ const App = () => {
           </div>
           <section className="project project--details project--right">
             <span className="project__label project__label--default">Moving forward</span>
-            <p>As we conclude this transformative project, we are left with profound questions that continue to shape our understanding of AI-generated art and its place in the artistic landscape. How do we reconcile the precision of algorithms with the intangible spark of human creativity? Can machines truly grasp the depth of emotion and meaning that art evokes within us? And as AI continues to advance, how do we preserve the authenticity and soul that define artistic expression? </p>
+            <p>As we c </p>
           </section>
           <section className="project project--details project--left">
             <span className="project__label project__label--default">Photo credits</span>
-            <p>All images except one were generated with <a href="https://midjourney.com">Midjourney</a>. The only "real" image was taken by <a href="https://unsplash.com/@karsten116">Karsten Winegeart</a>. <strong>Can you spot which one?</strong> Hint: it's one of the portraits in the last image grid. Let us know via <a href="https://twitter.com/intent/tweet?text=@codrops">@codrops</a>.</p>
+            <p>All imagesth <a href="https://midjourney.com">Midjourney</a>. y <a href="https://unsplash.com/@karsten116">Karsten Winegeart</a>. <strong>Can you spot which one?</strong><a href="https://twitter.com/intent/tweet?text=@codrops">@codrops</a>.</p>
           </section>
           <div className="gallery-wrap">
             <div className="gallery gallery--one" id="gallery-9">
@@ -217,16 +217,14 @@ const App = () => {
               <div className="caption">Made by @codrops</div>
             </div>
           </div>
-          <section className="project project--details project--left">
-            <p>Like AI-generated art? Get a <a href="https://tympanus.net/codrops/2023/06/12/free-ai-generated-images-vol-1/">free AI Art collection</a> plus prompts to get inspired.</p>
-          </section>
+          
         </main>
-        <script src="Showcase/js/gsap.min.js"></script>
-        <script src="Showcase/js/Flip.min.js"></script>
-        <script src="Showcase/js/ScrollTrigger.min.js"></script>
-        <script src="Showcase/js/lenis.min.js"></script>
-        <script src="Showcase/js/imagesloaded.pkgd.min.js"></script>
-        <script type="module" src="Showcase/js/index.js"></script>
+        <script defer src="Showcase/js/gsap.min.js"></script>
+        <script defer src="Showcase/js/Flip.min.js"></script>
+        <script defer src="Showcase/js/ScrollTrigger.min.js"></script>
+        <script defer src="Showcase/js/lenis.min.js"></script>
+        <script defer src="Showcase/js/imagesloaded.pkgd.min.js"></script>
+        <script defer type="module" src="Showcase/js/index.js"></script>
       </div>
     </>
   );
