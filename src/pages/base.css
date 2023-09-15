@@ -131,9 +131,7 @@ main {
 	opacity: 0.7;
 }
 
-body #cdawrap {
-    justify-self: start;
-}
+
 
 .frame a {
 	pointer-events: auto;
@@ -234,7 +232,7 @@ body #cdawrap {
 }
 
 .project p {
-	line-height: 1.4;
+	line-height: 1.5;
 	margin: 0;
 	color: var(--color-text-alt);
 }
@@ -402,7 +400,7 @@ body #cdawrap {
 	bottom: -50vh;
 	left: 0;
 	padding: 4.5vw;
-	max-width: 730px;
+	max-width: 900px;
 	opacity: 0;
 }
 

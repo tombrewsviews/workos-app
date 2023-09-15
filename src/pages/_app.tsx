@@ -38,23 +38,22 @@ const App = () => {
       <div>
         <main className="loading">
           <div className="frame">
-            <div className="frame__title"> 
-              <h1 className="frame__title-main">On-Scroll Image Layout Animations</h1> 
-            </div>
+            
           </div>
           <section className="project project--intro">
-            <span className="project__label project__label--name">Project</span>
-            <span className="project__name">AI Art</span>
-            <span className="project__label project__label--date">Date</span>
-            <span className="project__date">July, 2023</span>
+            <span className="project__label project__label--name">Showcase 2023</span>
+            <span className="project__name">Tom Parandyk</span>
+            <span className="project__label project__label--date">Role</span>
+            <span className="project__date">Lead Product Designer</span>
             <h2 className="project__title">
-              <span className="project__title-line">Creativity</span>
-              <span className="project__title-line">Redefined</span>
+              <span className="project__title-line">Why</span>
+              <span className="project__title-line">Product</span>
+              <span className="project__title-line">Design</span>
             </h2>
-            <span className="project__label project__label--mission">Mission</span>
+            <span className="project__label project__label--mission">Vision</span>
             <div className="project__mission">
-              <p>The AI-Art Project is a transformative initiative dedicated to exploring the immense impact of AI-generated art on the art world and artists. We aim to discover and promote exceptional AI-generated artworks that push the boundaries of creativity, redefine traditional practices, and provoke thought. </p>
-              <p>Through collaborations with artists, workshops, and educational programs, we empower artists to leverage AI as a tool for exploration, expanding their artistic horizons and embracing new forms of expression.</p>
+              <p>Product design is a harmonious blend of utility and creativity to elevate user satisfaction. I thrive on user feedback, seizing opportunities to streamline intricate interactions. The ultimate goal is to craft experiences that are both functional and visually stunning. </p>
+              <p>As I look ahead, my focus shifts toward design engineering—a perfect fusion of artistic vision and technical prowess. I aim to seamlessly integrate aesthetics with code, aspiring to design and build user experiences that are functional and visually compelling.</p>
             </div>
           </section>
           <div className="gallery-wrap">
@@ -62,12 +61,12 @@ const App = () => {
               <div className="gallery__item gallery__item--s" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item gallery__item--m" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item gallery__item--l" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
-              <div className="gallery__item gallery__item--xl gallery__item--center" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
+              <div className="gallery__item gallery__item--xl gallery__item--center" style={{backgroundImage: 'url(Showcase/img/G1-1.jpg)'}}></div>
               <div className="gallery__item gallery__item--l" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item gallery__item--m" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item gallery__item--s" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="caption">
-                Within this meticulously arranged AI-generated ensemble lies a tantalizing facade, captivating our gaze. Yet, as we search for the soul of human expression, we question whether algorithms can truly embody the essence of authentic art.
+                Over the years, I've sharpened my ability to balance eye-catching aesthetics and robust functionality by adhering to a well-defined framework of patterns and design principles. I strive to deliver iconic, visually captivating, and exceptionally user-friendly designs.
               </div>
             </div>
           </div>
@@ -92,8 +91,8 @@ const App = () => {
             </div>
           </div>
           <section className="project project--details project--right">
-            <span className="project__label project__label--default">Preserving Artistic Identity</span>
-            <p>While AI offers new avenues for artistic exploration, there is a concern that it may overshadow or replace human creativity. Balancing the integration of AI tools and techniques with preserving the unique perspectives, emotional depth, and artistic identity of human artists is a significant challenge. Striking the right balance between AI-generated art and the irreplaceable human touch requires thoughtful consideration and an ongoing dialogue between artists, technologists, and the wider art community.</p>
+            <span className="project__label project__label--default">Why systems</span>
+            <p>Having spent years immersed in design system principles, I find them critical in my work. I had the opportunity to construct several component libraries in design tools and in code from the ground up. Design systems compel me to continually refine my work, making the complex manageable. This long journey has been less about adopting methodologies and more about advancing the foundation upon which my design sensibilities are built.</p>
           </section>
           <div className="gallery-wrap">
             <div className="gallery gallery--grid10" id="gallery-3">
@@ -113,42 +112,39 @@ const App = () => {
               <div className="gallery__item pos-14" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item pos-15" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item pos-16" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
-              <div className="caption">The Art of Perfection?</div>
+              <div className="caption">Creative consistency</div>
             </div>
           </div>
           <section className="project project--details">
-            <span className="project__label project__label--default">Societal Impact</span>
-            <p>As AI-generated art becomes more prevalent, its long-term impact on the art market, art institutions, and the broader societal perception of art needs to be carefully examined. Understanding the implications of AI-generated art for art sales, copyright laws, and the dynamics of the art market is crucial for shaping future policies and practices. Additionally, exploring the ways in which AI-generated art can democratize artistic expression and challenge traditional hierarchies is an ongoing challenge that requires proactive engagement and collaboration.</p>
+            <span className="project__label project__label--default">Aligning the why</span>
+            <p>It's incredibly fulfilling to craft designs that make life better for users and align perfectly with business objectives. The goal is always twofold: to create intuitive, impactful user experiences and to deliver tangible business results. There's something uniquely satisfying about hitting that sweet spot, where customer benefit and business success meet, turning everyday interactions into something extraordinary.</p>
           </section>
           <div className="gallery-wrap gallery-wrap--dense">
-            <div className="gallery gallery--stack gallery--stack-inverse gallery--stack-dark" id="gallery-4">
-              <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
+            <div className="gallery gallery--stack gallery--stack-inverse gallery--stack-scale gallery--stack-dark" id="gallery-4">
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="caption">
-                <p>AI-generated art captivates with varied creations, sometimes senseless, yet impressively enigmatic.</p>
+                <p>This uncharted territory challenges artists and art enthusiasts alike, igniting debates about the role of intention and chance in the artistic process.</p>
               </div>
             </div>
           </div>
           <div className="gallery-wrap gallery-wrap--dense">
-            <div className="gallery gallery--stack gallery--stack-glass" id="gallery-5">
-              <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
+            <div className="gallery gallery--stack gallery--stack-inverse gallery--stack-scale gallery--stack-dark" id="gallery-5">
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="caption">
-                <p>In the realm of unpredictable algorithms, some variations may appear random or without purpose, challenging traditional notions of beauty and meaning.</p>
+                <p>This uncharted territory challenges artists and art enthusiasts alike, igniting debates about the role of intention and chance in the artistic process.</p>
               </div>
             </div>
           </div>
           <div className="gallery-wrap gallery-wrap--dense">
             <div className="gallery gallery--stack gallery--stack-inverse gallery--stack-scale gallery--stack-dark" id="gallery-6">
-              <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
@@ -183,7 +179,7 @@ const App = () => {
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
-              <div className="caption">What is creativity?</div>
+              <div className="caption">Design, test, and repeat!</div>
             </div>
           </div>
           <section className="project project--details project--left">
@@ -203,20 +199,10 @@ const App = () => {
               <div className="caption">Perfect Imperfections</div>
             </div>
           </div>
-          <section className="project project--details project--right">
-            <span className="project__label project__label--default">Moving forward</span>
-            <p>As we c </p>
-          </section>
           <section className="project project--details project--left">
             <span className="project__label project__label--default">Photo credits</span>
-            <p>All imagesth <a href="https://midjourney.com">Midjourney</a>. y <a href="https://unsplash.com/@karsten116">Karsten Winegeart</a>. <strong>Can you spot which one?</strong><a href="https://twitter.com/intent/tweet?text=@codrops">@codrops</a>.</p>
+            <p>All imagesth </p>
           </section>
-          <div className="gallery-wrap">
-            <div className="gallery gallery--one" id="gallery-9">
-              <div className="gallery__item pos-16" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
-              <div className="caption">Made by @codrops</div>
-            </div>
-          </div>
           
         </main>
         <script defer src="Showcase/js/gsap.min.js"></script>

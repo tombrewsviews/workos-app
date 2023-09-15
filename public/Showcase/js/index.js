@@ -103,7 +103,6 @@ const scroll = () => {
         { id: '#gallery-6' },
         { id: '#gallery-7' },
         { id: '#gallery-8', options: { flip: { scale: false } } },
-        { id: '#gallery-9' },
     ];
 
     // Loop through the galleries and apply the scroll-triggered animations
