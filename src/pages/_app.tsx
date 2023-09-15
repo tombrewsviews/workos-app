@@ -66,7 +66,7 @@ const App = () => {
               <div className="gallery__item gallery__item--m" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item gallery__item--s" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="caption">
-                Over the years, I've sharpened my ability to balance eye-catching aesthetics and robust functionality by adhering to a well-defined framework of patterns and design principles. I strive to deliver iconic, visually captivating, and exceptionally user-friendly designs.
+                Over the years, I&apos;ve sharpened my ability to balance eye-catching aesthetics and robust functionality by adhering to a well-defined framework of patterns and design principles. I strive to deliver iconic, visually captivating, and exceptionally user-friendly designs.
               </div>
             </div>
           </div>
@@ -117,7 +117,7 @@ const App = () => {
           </div>
           <section className="project project--details">
             <span className="project__label project__label--default">Aligning the why</span>
-            <p>It's incredibly fulfilling to craft designs that make life better for users and align perfectly with business objectives. The goal is always twofold: to create intuitive, impactful user experiences and to deliver tangible business results. There's something uniquely satisfying about hitting that sweet spot, where customer benefit and business success meet, turning everyday interactions into something extraordinary.</p>
+            <p>It&apos;s incredibly fulfilling to craft designs that make life better for users and align perfectly with business objectives. The goal is always twofold: to create intuitive, impactful user experiences and to deliver tangible business results. There&apos;s something uniquely satisfying about hitting that sweet spot, where customer benefit and business success meet, turning everyday interactions into something extraordinary.</p>
           </section>
           <div className="gallery-wrap gallery-wrap--dense">
             <div className="gallery gallery--stack gallery--stack-inverse gallery--stack-scale gallery--stack-dark" id="gallery-4">
