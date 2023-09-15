@@ -2,8 +2,22 @@ import express from 'express';
 import workos from './workos';
 
 const app = express();
+const allowedOrigins = [
+  process.env.FRONTEND_URL
+];
 
-app.use(express.json());
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      // Check if the origin is in the allowedOrigins array
+      if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+        callback(null, true);
+      } else {
+        callback(new Error('Not allowed by CORS'));
+      }
+    },
+  })
+);
 
 app.post('/auth/magic_link', async (req, res) => {
   console.log("Received request for magic link", req.body); 
