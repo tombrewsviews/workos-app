@@ -6,7 +6,7 @@ const Login = () => {
 
   const handleMagicLink = async () => {
     try {
-      await axios.post('../pages/api/magic_link', { email });
+      await axios.post(`${process.env.NEXT_PUBLIC_BACKEND_URL}/magic_link`, { email });
       alert('Magic link sent to your email.');
     } catch (error) {
       console.error('Failed to send magic link:', error);

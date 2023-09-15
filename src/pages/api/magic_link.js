@@ -7,7 +7,7 @@ const workos = new WorkOS(process.env.WORKOS_API_KEY);
 // Initialize the CORS middleware
 const cors = Cors({
   methods: ['POST'],
-  origin: 'https://workos-dx7rhclu0-tomparandyk-neontech.vercel.app/', // Replace with your actual frontend domain
+  origin: process.env.FRONTEND_URL, // Replace with your actual frontend domain
 });
 
 // Helper method to wait for a middleware to execute before continuing
