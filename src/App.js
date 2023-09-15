@@ -8,6 +8,7 @@ const App = () => {
     <Router>
       <Route path="/auth/callback" component={Callback} />
       <Route path="/login" component={Login} />
+      <Route path="/magic_link" component={MagicLink} />
     </Router>
   );
 };

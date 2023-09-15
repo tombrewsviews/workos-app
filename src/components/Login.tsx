@@ -1,13 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
+import axios from 'axios';
 
-const Login: React.FC = () => {
-  const handleLogin = () => {
-    const clientId = process.env.NEXT_PUBLIC_WORKOS_CLIENT_ID;
-    window.location.href = `/api/auth/login?client_id=${clientId}`;
+const Login = () => {
+  const [email, setEmail] = useState('');
+
+  const handleMagicLink = async () => {
+    try {
+      await axios.post(`${process.env.NEXT_PUBLIC_BACKEND_URL}/magic_link`, { email });
+      alert('Magic link sent to your email.');
+    } catch (error) {
+      console.error('Failed to send magic link:', error);
+      alert('Failed to send magic link.');
+    }
   };
 
   return (
-    <button onClick={handleLogin}>Login with WorkOS</button>
+    <div>
+      <h1>Login</h1>
+      <form onSubmit={(e) => { e.preventDefault(); handleMagicLink(); }}>
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Email for magic link"
+        />
+        <button type="submit">Send Magic Link</button>
+      </form>
+    </div>
   );
 };
 
