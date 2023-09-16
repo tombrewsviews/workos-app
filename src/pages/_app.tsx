@@ -59,10 +59,10 @@ const App = () => {
           <div className="gallery-wrap">
             <div className="gallery gallery--row" id="gallery-1">
               <div className="gallery__item gallery__item--s" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
-              <div className="gallery__item gallery__item--m" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
-              <div className="gallery__item gallery__item--l" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
+              <div className="gallery__item gallery__item--m" style={{backgroundImage: 'url(Showcase/img/G1-3.jpg)'}}></div>
+              <div className="gallery__item gallery__item--l" style={{backgroundImage: 'url(Showcase/img/G1-5.jpg)'}}></div>
               <div className="gallery__item gallery__item--xl gallery__item--center" style={{backgroundImage: 'url(Showcase/img/G1-1.jpg)'}}></div>
-              <div className="gallery__item gallery__item--l" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
+              <div className="gallery__item gallery__item--l" style={{backgroundImage: 'url(Showcase/img/G1-2.jpg)'}}></div>
               <div className="gallery__item gallery__item--m" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item gallery__item--s" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="caption">
@@ -71,8 +71,8 @@ const App = () => {
             </div>
           </div>
           <section className="project project--details project--left">
-            <span className="project__label project__label--default">Ethical Considerations</span>
-            <p>The emergence of AI-generated art raises ethical questions and concerns. One of the key challenges is navigating the boundaries of authorship and ownership. Determining the role of AI algorithms and their creators in the artistic process, as well as addressing issues of attribution and intellectual property, requires careful deliberation. Additionally, ensuring that AI-generated art does not perpetuate bias, discrimination, or harmful content is crucial for fostering a responsible and inclusive artistic landscape.</p>
+            <span className="project__label project__label--default">Why Research</span>
+            <p>I&apos;ve consistently found value in using qualitative and quantitative research methods to guide my design decisions. I gained a more nuanced understanding of user behavior through rigorous A/B testing, user interviews, and data analytics. This data-driven approach ensures that design choices are substantiated, reducing risk and unwanted bias in the design process.</p>
           </section>
           <div className="gallery-wrap gallery-wrap--large">
             <div className="gallery gallery--grid gallery--breakout" id="gallery-2">
@@ -86,12 +86,12 @@ const App = () => {
               <div className="gallery__item gallery__item-cut"><div className="gallery__item-inner" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div></div>
               <div className="gallery__item gallery__item-cut"><div className="gallery__item-inner" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div></div>
               <div className="caption">
-                <p>Devoid of inherent knowledge, the language model relies solely on probabilities to craft a peculiar vision. As a result, the earrings hang in curious defiance of physics, inviting us to ponder the implications of relinquishing human understanding in the pursuit of artificial creativity.</p>
+                <p>An essential part of my role as a product designer is aligning the design strategy with business objectives. By simplifying interfaces and innovating within the constraints of business goals, I&apos;ve successfully created designs that capture users&apos; attention and drive product adoption rates, thus positively affecting the bottom line.</p>
               </div>
             </div>
           </div>
           <section className="project project--details project--right">
-            <span className="project__label project__label--default">Why systems</span>
+            <span className="project__label project__label--default">Why Systems</span>
             <p>Having spent years immersed in design system principles, I find them critical in my work. I had the opportunity to construct several component libraries in design tools and in code from the ground up. Design systems compel me to continually refine my work, making the complex manageable. This long journey has been less about adopting methodologies and more about advancing the foundation upon which my design sensibilities are built.</p>
           </section>
           <div className="gallery-wrap">
@@ -112,11 +112,11 @@ const App = () => {
               <div className="gallery__item pos-14" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item pos-15" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item pos-16" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
-              <div className="caption">Creative consistency</div>
+              <div className="caption">Creative Consistency</div>
             </div>
           </div>
           <section className="project project--details">
-            <span className="project__label project__label--default">Aligning the why</span>
+            <span className="project__label project__label--default">Why Alignment</span>
             <p>It&apos;s incredibly fulfilling to craft designs that make life better for users and align perfectly with business objectives. The goal is always twofold: to create intuitive, impactful user experiences and to deliver tangible business results. There&apos;s something uniquely satisfying about hitting that sweet spot, where customer benefit and business success meet, turning everyday interactions into something extraordinary.</p>
           </section>
           <div className="gallery-wrap gallery-wrap--dense">
@@ -156,8 +156,8 @@ const App = () => {
             </div>
           </div>
           <section className="project project--details project--right">
-            <span className="project__label project__label--default">Unmasking the Void of Authenticity</span>
-            <p>While AI-generated art showcases impressive technical prowess, it leaves behind an unsettling void in the quest for authenticity. As humans, we seek the genuine touch of human hands and the depth of emotional connection embedded within traditional art forms. The lack of human essence in AI-generated creations may leave us yearning for the profound human expression that sparks true resonance, evoking a sense of emptiness in the face of machine-driven artistry.</p>
+            <span className="project__label project__label--default">Why Metrics</span>
+            <p>My design philosophy focuses intently on driving key product metrics such as user retention, adoption, and reducing churn. When these metrics improve, it&apos;s not just a win for the business; it also indicates that the users find value in the product. This dual impact on both user satisfaction and business health makes my work incredibly rewarding.</p>
           </section>
           <div className="gallery-wrap">
             <div className="gallery gallery--gridtiny" id="gallery-7">
@@ -179,12 +179,12 @@ const App = () => {
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
-              <div className="caption">Design, test, and repeat!</div>
+              <div className="caption">Design. Test. Repeat.</div>
             </div>
           </div>
           <section className="project project--details project--left">
-            <span className="project__label project__label--default">Photographic Flaws in Perfect Harmony</span>
-            <p>In the realm of AI-generated photography, the quest for flawlessness inadvertently unveils a striking paradox - the absence of authentic imperfections. Even in the most human-like subjects, wrinkles and blemishes appear too immaculate, leaving us yearning for the raw, unfiltered beauty that only true imperfection can evoke. </p>
+            <span className="project__label project__label--default">Why Improve</span>
+            <p>Every project is a point of pride and a stepping stone for refining my skills, pushing me closer to my enduring ambition: the seamless marriage of design aesthetics and technical capability. In this competitive field, not only is it crucial to evolve, but it's also vital to grow my technical skills for a broader impact on user experience. This relentless focus on both artistic and technical growth is the fuel that drives my career forward. </p>
           </section>
           <div className="gallery-wrap">
             <div className="gallery gallery--bento" id="gallery-8">
@@ -196,7 +196,7 @@ const App = () => {
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="gallery__item" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
-              <div className="caption">Perfect Imperfections</div>
+              <div className="caption">A design is never finished, only abandoned.</div>
             </div>
           </div>
           <section className="project project--details project--left">
