@@ -11,7 +11,7 @@ const App = () => {
   
   // Add a state variable to check if the user is authenticated
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const bypassAuthentication = true;
+  const bypassAuthentication = false;
 
   useEffect(() => {
     // Check if the user is authenticated (you can replace this with your own logic)
@@ -41,7 +41,7 @@ const App = () => {
             
           </div>
           <section className="project project--intro">
-            <span className="project__label project__label--name">Showcase 2023</span>
+            <span className="project__label project__label--name">Portfolio 2023</span>
             <span className="project__name">Tom Parandyk</span>
             <span className="project__label project__label--date">Role</span>
             <span className="project__date">Lead Product Designer</span>
@@ -50,7 +50,7 @@ const App = () => {
               <span className="project__title-line">Product</span>
               <span className="project__title-line">Design</span>
             </h2>
-            <span className="project__label project__label--mission">Vision</span>
+            <span className="project__label project__label--mission">Purpose</span>
             <div className="project__mission">
               <p>Product design is a harmonious blend of utility and creativity to elevate user satisfaction. I thrive on user feedback, seizing opportunities to streamline intricate interactions. The ultimate goal is to craft experiences that are both functional and visually stunning. </p>
               <p>As I look ahead, my focus shifts toward design engineering—a perfect fusion of artistic vision and technical prowess. I aim to seamlessly integrate aesthetics with code, aspiring to design and build user experiences that are functional and visually compelling.</p>
@@ -63,7 +63,7 @@ const App = () => {
               <div className="gallery__item gallery__item--l" style={{backgroundImage: 'url(Showcase/img/G1-5.jpg)'}}></div>
               <div className="gallery__item gallery__item--xl gallery__item--center" style={{backgroundImage: 'url(Showcase/img/G1-1.jpg)'}}></div>
               <div className="gallery__item gallery__item--l" style={{backgroundImage: 'url(Showcase/img/G1-2.jpg)'}}></div>
-              <div className="gallery__item gallery__item--m" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
+              <div className="gallery__item gallery__item--m" style={{backgroundImage: 'url(Showcase/img/G1-6.jpg)'}}></div>
               <div className="gallery__item gallery__item--s" style={{backgroundImage: 'url(Showcase/img/6.jpg)'}}></div>
               <div className="caption">
                 Over the years, I&apos;ve sharpened my ability to balance eye-catching aesthetics and robust functionality by adhering to a well-defined framework of patterns and design principles. I strive to deliver iconic, visually captivating, and exceptionally user-friendly designs.
@@ -117,7 +117,7 @@ const App = () => {
           </div>
           <section className="project project--details">
             <span className="project__label project__label--default">Why Alignment</span>
-            <p>It&apos;s incredibly fulfilling to craft designs that make life better for users and align perfectly with business objectives. The goal is always twofold: to create intuitive, impactful user experiences and to deliver tangible business results. There&apos;s something uniquely satisfying about hitting that sweet spot, where customer benefit and business success meet, turning everyday interactions into something extraordinary.</p>
+            <p>It&apos;s incredibly fulfilling to craft designs that make life better for users and align perfectly with business objectives. The goal is always twofold: to create intuitive, impactful user experiences and to deliver tangible business results. There&apos;s something uniquely satisfying about hitting that sweet spot, where customer benefit and business success meet, turning everyday interactions into an extraordinary product.</p>
           </section>
           <div className="gallery-wrap gallery-wrap--dense">
             <div className="gallery gallery--stack gallery--stack-inverse gallery--stack-scale gallery--stack-dark" id="gallery-4">
@@ -184,7 +184,7 @@ const App = () => {
           </div>
           <section className="project project--details project--left">
             <span className="project__label project__label--default">Why Improve</span>
-            <p>Every project is a point of pride and a stepping stone for refining my skills, pushing me closer to my enduring ambition: the seamless marriage of design aesthetics and technical capability. In this competitive field, not only is it crucial to evolve, but it's also vital to grow my technical skills for a broader impact on user experience. This relentless focus on both artistic and technical growth is the fuel that drives my career forward. </p>
+            <p>Every project I work on is a source of pride and a learning opportunity. It helps me get closer to my main goal, blending iconic design with clean technical implementation. Being able to build and polish my designs in code allows me to make a more significant impact on user experience. I thrive on this balance between creative and technical growth and aim to fully transition into design engineering within the next 2-3 years.</p>
           </section>
           <div className="gallery-wrap">
             <div className="gallery gallery--bento" id="gallery-8">
